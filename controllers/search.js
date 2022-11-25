@@ -12,6 +12,9 @@ exports.search = async (req, res) => {
         let result = q.slice(0, 16)
         console.log(result)
 
+
+
+        
         const url = q.split('.')[2]
         // console.log(url)
 
